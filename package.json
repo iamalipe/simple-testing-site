@@ -7,9 +7,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/iamalipe/simple-testing-site.git"
   },
-  "homepage": "",
+  "homepage": "https://github.com/iamalipe/simple-testing-site",
   "private": true,
   "version": "1.0.0",
   "type": "module",

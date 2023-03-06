@@ -1,6 +1,8 @@
 function App() {
-  const name = import.meta.env.VITE_NAME;
-  const link = import.meta.env.VITE_LINK;
+  const name = import.meta.env.VITE_NAME || "Simple Testing Site";
+  const link =
+    import.meta.env.VITE_LINK ||
+    "https://github.com/iamalipe/simple-testing-site";
   return (
     <div className="App">
       <div>
