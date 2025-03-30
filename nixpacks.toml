@@ -1,8 +1,6 @@
 [phases.setup]
-nixPkgs = ['nginx']
+cmds = ['cp config/nginx.conf /etc/nginx/nginx.conf']
+
 
 [phases.build]
-cmds = ['npm ci', 'npm run build']
-
-[phases.start]
-cmds = ['nginx -c /app/config/nginx.conf -g "daemon off;"']
+cmds = ['npm run build']
